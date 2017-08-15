@@ -6,7 +6,7 @@
 	正面的数据经过预处理、人工标注以及用opencv的一系列处理（二值化、膨胀与腐蚀，填充与区域选择，多边形拟合），对于南阳市第二人民医院和印第安纳数据集，均可产生六种数据，对于南阳医专二附院，由于只是用了正常人的样本，故产生三种数据。
 侧面的数据均只做了大小和分辨率的调整。
 
-![images](https://github.com/cardiacai/cardiacai/raw/master/images/%E5%9B%BE%E7%89%87%E9%A2%84%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png
+![images](https://github.com/cardiacai/cardiacai/raw/master/images/%E5%9B%BE%E7%89%87%E9%A2%84%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
 
 
 
