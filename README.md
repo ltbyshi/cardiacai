@@ -9,7 +9,10 @@
 
 ## Data source
 
-  The X-ray images we collected are from two hospitals in Nanyang, Henan and a foreign dataset(Indiana University) [openichestdataset](https://openi.nlm.nih.gov/gridquery.php?q=&coll=cxr)
+  The X-ray images we collected are from two hospitals in Nanyang, Henan and a foreign dataset from Indiana University
+  [openichestdataset](https://openi.nlm.nih.gov/gridquery.php?q=&coll=cxr)
+
+ [image](http://github.com/cardiacai/cardiacai/images/图片预处理流程.png)
   
 
 ## Why CardiacAI
