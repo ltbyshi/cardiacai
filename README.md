@@ -1,12 +1,3 @@
-# ReadmeSample
-
-> 本篇已经收录到 [fetool\['杂七杂八'\]](https://github.com/nieweidong/fetool#other)
-
-#### 项目高大上的第一步就是 ___包装___，所以来看看README的书写套路吧:)
-
-#### 每一项都不是必须，还请自行参考
-
----
 
 ## 示例的项目名称为： ZhuangDeYiShouHaoBi
 
@@ -68,8 +59,5 @@
 
 ---
 
-#### 您可以通过以下方式联系到我：
-- 微博 [@聂微东](http://weibo.com/darrencode "Darren 聂微东")
-- 个人Blog [fefork.com](http://www.fefork.com/ "一枚Web技术领域的手艺人")
-- 博客园 [犀利的东哥](http://www.cnblogs.com/Darren_code/ "关注前端技术")
-- QQ群 **214199415**，群名前端Club。PS:入群__务必请提供git或blog地址__，否则进不去哈:)
+#### 您可以通过以下方式联系到我们：
+- 邮箱 240682348@qq.com
