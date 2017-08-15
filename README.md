@@ -1,6 +1,6 @@
 
 ## CardiacAI
-  [CardiacAI](http://cardiacai.cn)
+  VISIT OUR WEBSITE[CardiacAI](http://cardiacai.cn)
 
 ## Goal and Philosophy
 
