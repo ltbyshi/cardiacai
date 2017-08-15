@@ -41,5 +41,6 @@
 ---
 
 #### 您可以通过以下方式联系到我们：
-- 邮箱 240682348@qq.com
 - 网站 [CardiacAI](http://cardiacai.cn)
+- 邮箱 240682348@qq.com
+
