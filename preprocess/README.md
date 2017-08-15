@@ -20,7 +20,7 @@
 
 ## 印第安纳：JPG
 
-|abnormal 1403|  normal 139 |
+|abnormal 1403|  normal 139| 
 |:-----------:|:-----------:| 
 |512*624      | 512*624     |
 |annotation   | annotation  |
@@ -37,8 +37,4 @@
 
 侧面 154个
 
-| Tables | Are | Cool |
-|:-------------:|:-------------:|:-----:|
-| col 3 is | right-aligned | 1600|
-|col2is|centered|12 |
-| zebra stripes | are neat | $1 |
+
