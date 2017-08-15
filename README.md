@@ -1,6 +1,7 @@
 
 ## CardiacAI
-  VISIT OUR WEBSITE：[CardiacAI](http://cardiacai.cn)
+  VISIT OUR WEBSITE：
+  [CardiacAI](http://cardiacai.cn)
 
 ## Goal and Philosophy
 
@@ -16,7 +17,9 @@
   
 
 ## Why CardiacAI
-  
+  Your are welcome to read the stories on our website.
+  [为什么是心脏病]
+  
 
 ## Requirements
 
@@ -27,11 +30,13 @@
 ## documentation
   [技术文档]
 ## How It Works
-
   [原理介绍]
-## Credits
-
-  [项目成员]
+  (配网络图，几个模型简介)
+## Credits 
+  [枕叶纺者们]
+  史斌斌：本科毕业于清华大学生命学院，现清华大学生命学院博士三年级，专业方向为生物信息学。
+  王炣文：北京邮电大学网络工程专业本科三年级，已保研至中科院计算所。
+  陈旭鹏：清华大学生命学院本科二年级。
 
 ---
 
