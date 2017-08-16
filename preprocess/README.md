@@ -17,6 +17,8 @@
 |512*624      | 512*624     |
 |annotation   | annotation  |
 |countour     |countour     |
+ 
+ 侧面：轮廓  (508个，未多边形逼近）
 
 ## 印第安纳：JPG
 
