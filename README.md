@@ -33,16 +33,17 @@
   [原理介绍](http://www.cardiacai.cn/dlmodel)
 ## Credits 
   [枕叶纺者们](http://www.cardiacai.cn/aboutus)
-## Work Logs
-  [工作日志](http://www.cardiacai.cn/worklog)
-
-
 ###### 史斌斌
    本科毕业于清华大学生命学院，现清华大学生命学院博士三年级，专业方向为生物信息学。
 ###### 王炣文
    北京邮电大学网络工程专业本科三年级。
 ###### 陈旭鹏
    清华大学生命学院本科二年级。
+
+## Work Logs
+  [工作日志](http://www.cardiacai.cn/worklog)
+
+
 
 
 
