@@ -1,7 +1,7 @@
 
 ## CardiacAI
-  欢迎访问
-  我们的网站<br/>[VISIT OUR WEBSITE：CardiacAI](http://cardiacai.cn)
+  欢迎访问我们的网站<br/>
+  [VISIT OUR WEBSITE：CardiacAI](http://cardiacai.cn)
 
 ## Goal and Philosophy
 
