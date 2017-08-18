@@ -18,22 +18,23 @@
 
 ## Why CardiacAI
   Your are welcome to read the stories on our website.
-  [为什么是心脏病]
+  [为什么是心脏病](http://www.cardiacai.cn/why)
   
 
 ## Requirements
 
    ```python = 2.7```
-   ```keras >= 2.0.4```
-   ```opencv >= 2.4```
+   <br>```keras >= 2.0.4```
+   <br>```opencv >= 2.4```
 
 ## documentation
-  [技术文档]
+  [技术文档](http://www.cardiacai.cn/techlog)
 ## How It Works
-  [原理介绍]
-  (配网络图，几个模型简介)
+  [原理介绍](http://www.cardiacai.cn/dlmodel)
 ## Credits 
-  [枕叶纺者们]
+  [枕叶纺者们](http://www.cardiacai.cn/aboutus)
+## Work Logs
+  [工作日志](http://www.cardiacai.cn/worklog)
 
 
 ###### 史斌斌
