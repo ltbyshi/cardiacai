@@ -31,6 +31,7 @@
   [技术文档](http://www.cardiacai.cn/techlog)
 ## How It Works
   [原理介绍](http://www.cardiacai.cn/dlmodel)
+  ![image](https://github.com/cardiacai/CardiacAI/raw/master/images/pipeline.png)
 ## Credits 
   [枕叶纺者们](http://www.cardiacai.cn/aboutus)
 ###### 史斌斌
