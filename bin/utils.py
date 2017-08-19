@@ -21,6 +21,21 @@ def read_hdf5(filename, datasets):
     f.close()
     return data
 
+def read_hdf5_dataset(filename):
+    """
+    Read a dataset from an HDF5 file
+    :param filename: file path and dataset name separated by ":" (e.g file.h5:dataset)
+    :return: the dataset
+    """
+    import h5py
+    if ':' not in filename:
+        raise ValueError('missing dataset name in the HDF5 file: ' + filename)
+    i = filename.index(':')
+    f = h5py.File(filename[:i], 'r')
+    data = f[filename[(i + 1):]][:]
+    f.close()
+    return data
+
 def array_lookup(mapping, keys):
     """
     Get indices of matched strings in a numpy array

@@ -175,6 +175,7 @@ class UpsampleImageDataGenerator(object):
                     X_batch[j] = self.image_generator.random_transform(self.X[k])
                 y_batch = self.y[indices_batch]
                 yield X_batch, y_batch
+
 def classify_types(args):
     from models import get_pretrained_vgg16
     import numpy as np
@@ -373,10 +374,11 @@ def classify_diseases(args):
     model.save(model_file)
 
 def segment(args):
-    from models import unet1
+    from models import unet1, unet_from_vgg16
     import keras
     import numpy as np
     import h5py
+    from keras.models import load_model
     globals().update(locals())
 
     logger.info('read cv_split file: ' + args.cv_split_file)
@@ -397,7 +399,7 @@ def segment(args):
         X_test = np.take(X, array_lookup(image_id_X, image_id_test), axis=0)
         X_valid = np.take(X, array_lookup(image_id_X, image_id_valid), axis=0)
     else:
-        logger.info('convert RGB images to gray-scale images')
+        logger.info('convert gray-scale images to 3-channel images')
         X_train = np.repeat(X[array_lookup(image_id_X, image_id_train)], 3, axis=3)
         X_test = np.repeat(X[array_lookup(image_id_X, image_id_test)], 3, axis=3)
         X_valid = np.repeat(X[array_lookup(image_id_X, image_id_valid)], 3, axis=3)
@@ -428,8 +430,12 @@ def segment(args):
                                              batch_size=args.batch_size,
                                              transform_y=False)
 
-    logger.info('build model: unet1')
-    model = unet1(input_shape=X_train.shape[1:])
+    logger.info('build model: ' + args.model_name)
+    if args.model_name == 'unet1':
+        model = unet1(input_shape=X_train.shape[1:])
+    elif args.model_name == 'unet_vgg16':
+        model = load_model(args.pretrained_model_file)
+        model = unet_from_vgg16(model)
     model.summary()
     logger.info('train the model')
     if not os.path.exists(args.output_dir):
@@ -494,8 +500,10 @@ if __name__ == '__main__':
                         help='input HDF5 file containing images to segment')
     parser.add_argument('-y', '--mask-file', type=str, required=True,
                         help='an HDF5 file containing mask images of the same shape of input images')
+    parser.add_argument('--pretrained-model-file', type=str,
+                        help='pretrained keras model for unet_vgg16')
     parser.add_argument('--model-name', type=str, default='unet1',
-                        choices=('unet1',),
+                        choices=('unet1','unet_vgg16'),
                         help='the name of the model to use')
     parser.add_argument('--cv-split-file', type=str,
                         help='HDF5 file containing training indices')
