@@ -8,8 +8,15 @@
 
 ![images](https://github.com/cardiacai/cardiacai/raw/master/images/%E5%9B%BE%E7%89%87%E9%A2%84%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
 
-
-
+<br/> 
+我们收集了三种不同来源的数据，每种数据都整理出了正常和得病的一些种类，做过多种形式的处理（详见预处理和标注部分），包括调整分辨率的图片，加分割线的图片，二值化的图片，多边形拟合出的心脏轮廓坐标值txt文件（traces）等。
+<br/>
+多边形拟合的轮廓线
+![images](https://github.com/cardiacai/CardiacAI/raw/master/images/%E5%A4%9A%E8%BE%B9%E5%BD%A2%E6%8B%9F%E5%90%88.png)
+<br/>
+处理成mask的样图
+![images](https://github.com/cardiacai/CardiacAI/raw/master/images/heart_masks.png)
+<br/>
 ## 南阳市第二人民医院：JPG
 
 |abnormal 2826|  normal 500 |
@@ -17,7 +24,7 @@
 |512*624      | 512*624     |
 |annotation   | annotation  |
 |countour     |countour     |
- 
+<br/> 
  侧面：轮廓  (508个，未多边形逼近）
 
 ## 印第安纳：JPG
@@ -27,7 +34,7 @@
 |512*624      | 512*624     |
 |annotation   | annotation  |
 |countour     |countour     |
-
+<br/> 
 表格信息、侧面 3497个
 
 ## 南阳：PNG
@@ -37,7 +44,7 @@
 |512*624      | 
 |annotation   |
 |countour     |
-
+<br/> 
 侧面 154个
 
 
