@@ -18,33 +18,30 @@
 ![images](https://github.com/cardiacai/CardiacAI/raw/master/images/heart_masks.png)
 <br/>
 ## 南阳市第二人民医院：JPG
-<br> 
+
 |abnormal 2826|  normal 500 |
 |:-----------:|:-----------:| 
 |512*624      | 512*624     |
 |annotation   | annotation  |
 |countour     |countour     |
-<br/> 
- 侧面：轮廓  (508个，未多边形逼近）
+ |侧面：轮廓  (508个，未多边形逼近）|
 
 ## 印第安纳：JPG
-<br> 
+
 |abnormal 1403|  normal 139| 
 |:-----------:|:-----------:| 
 |512*624      | 512*624     |
 |annotation   | annotation  |
 |countour     |countour     |
-<br/> 
-表格信息、侧面 3497个
+|表格信息、侧面 3497个|
 
 ## 南阳：PNG
-<br> 
+
 |abnormal 514 |  
 |:-----------:|
 |512*624      | 
 |annotation   |
 |countour     |
-<br/> 
-侧面 154个
+|侧面 154个|
 
 
