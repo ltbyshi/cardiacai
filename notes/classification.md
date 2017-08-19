@@ -16,7 +16,7 @@ bin/preprocess.py create_dataset -i data/sample_info.xlsx \
 bin/preprocess.py cv_split -i output/classify_diseases/${model}/${classes}/targets \
     -k 10 --valid-size 0.1 \
     -o output/classify_diseases/${model}/${classes}/cv_split
-for cv_fold in $(seq 1 9);do
+for cv_fold in $(seq 0 9);do
 bin/train.py classify_diseases -i data/merged/datasets/320x320.h5 \
     -y output/classify_diseases/${model}/${classes}/targets \
     -m models/imagenet/VGG16_notop \
