@@ -9,7 +9,12 @@ def prepare_output_file(filename):
         if e.errno != errno.EEXIST:
             raise e
 
-def read_hdf5(filename, datasets):
+def read_hdf5(filename, datasets=None):
+    if datasets is None:
+        if ':' in filename:
+            i = filename.index(':')
+            datasets = filename[(i + 1):]
+            filename = filename[:i]
     import h5py
     f = h5py.File(filename, 'r')
     if isinstance(datasets, list) or isinstance(datasets, tuple):

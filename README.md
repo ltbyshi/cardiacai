@@ -13,7 +13,7 @@
   The X-ray images we collected are from two hospitals in Nanyang, Henan and a foreign dataset from Indiana University
   [openichestdataset](https://openi.nlm.nih.gov/gridquery.php?q=&coll=cxr)
 
-![image](https://github.com/cardiacai/cardiacai/raw/master/images/%E5%9B%BE%E7%89%87%E9%A2%84%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
+![image](imaegs/图片预处理流程.png)
   
 
 ## Why CardiacAI
@@ -32,8 +32,8 @@
 ## How It Works
   [原理介绍](http://www.cardiacai.cn/dlmodel)<br/>
   
-  ![image](https://github.com/cardiacai/CardiacAI/raw/master/images/pipeline.png)
-  ![image](https://github.com/cardiacai/CardiacAI/raw/master/images/DLmodel.png)
+  ![image](images/pipeline.png)
+  ![image](images/DLmodel.png)
 ## Credits 
   [枕叶纺者们](http://www.cardiacai.cn/aboutus)
 ###### 史斌斌
